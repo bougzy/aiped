@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Electra - Electrical Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="/lib/animate/animate.min.css"/>
+        <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="../css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid header-top">
+            <div class="container d-flex align-items-center">
+                <div class="d-flex align-items-center h-100">
+                    <a href="#" class="navbar-brand" style="height: 125px;">
+                        <h1 class="text-primary mb-0"><i class="fas fa-bolt"></i>AIPED</h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                </div>
+                <div class="w-100 h-100">
+                    <div class="topbar px-0 py-2 d-none d-lg-block" style="height: 45px;">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-8 text-center text-lg-center mb-lg-0">
+                                <div class="d-flex flex-wrap">
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-4 text-center text-lg-end">
+                                <div class="d-flex justify-content-end">
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-bar px-0 py-lg-0" style="height: 80px;">
+                        <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-lg-end">
+                            <a href="#" class="navbar-brand-2">
+                                <h1 class="text-primary mb-0"><i class="fas fa-bolt"></i> Electra</h1>
+                                <!-- <img src="img/logo.png" alt="Logo"> -->
+                            </a>  
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                                <span class="fa fa-bars"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <div class="navbar-nav mx-0 mx-lg-auto bg-white">
+                                    <a href="/home" class="nav-item nav-link active">Home</a>
+                                    <a href="/about" class="nav-item nav-link">About</a>
+                                    <a href="/service" class="nav-item nav-link">Service</a>
+                                    <!-- <a href="blog.html" class="nav-item nav-link">Blog</a>
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                            <span class="dropdown-toggle">Pages</span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a href="project.html" class="dropdown-item">Our projects</a>
+                                            <a href="team.html" class="dropdown-item">Our team</a>
+                                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                            <a href="404.html" class="dropdown-item">404 Page</a>
+                                        </div>
+                                    </div> -->
+                                    <a href="/contact" class="nav-item nav-link">Contact</a>
+                                    <div class="nav-btn ps-3">
+                                        <button class="btn-search btn btn-primary btn-md-square mt-2 mt-lg-0 mb-4 mb-lg-0 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                                        <a href="#" class="btn btn-primary py-2 px-4 ms-0 ms-lg-3"> Get Solution</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center bg-primary">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Carousel Start -->
+        <div class="header-carousel owl-carousel overflow-hidden">
+            <div class="header-carousel-item hero-section">
+                <div class="hero-bg-half-1"></div>
+                <div class="hero-shape-1"></div>
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-7 animated fadeInLeft">
+                                <div class="text-sm-center text-md-start">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4">Delivering Quality Solutions, Every Time</h4>
+                                    <h3 class="display-2 text-white mb-4">From installations to repairs, we bring expertise to every project.</h3>
+                                    <p class="mb-5 fs-5"> 
+                                    </p>
+                                    <!-- <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
+                                        <a class="btn btn-light py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
+                                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-carousel-item hero-section">
+                <div class="hero-bg-half-2"></div>
+                <div class="hero-shape-2"></div>
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-7 animated fadeInLeft">
+                                <div class="text-sm-center text-md-start">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4">Innovative Solutions for a Brighter Future</h4>
+                                    <h3 class="display-2 text-white mb-4">Harnessing technology to create value for your home and business.</h3>
+                                    <p class="mb-5 fs-5">
+                                    </p>
+                                    <!-- <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
+                                        <a class="btn btn-light py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
+                                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- About Start -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-7 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="h-100">
+                            <h4 class="text-primary">About Us</h4>
+                            <h1 class="display-4 mb-4">About Aiped Integrated Services Limited</h1>
+                            <div class="row g-4 mb-4">
+                                
+                            </div>
+                            <p class="mb-4">  </p>
+                            <div class="text-dark mb-4">
+                                <p class="fs-5"> 
+                                Aiped Integrated Services Limited is a leading provider of electrical and electronic services, offering innovative solutions to meet the needs of clients across various industries. With a strong focus on quality, safety, and customer satisfaction, we have established ourselves as a reliable partner for all your electrical and electronics needs.</p>
+                                <p class="fs-5">
+                                Our team of skilled professionals is dedicated to delivering exceptional services ranging from installation and maintenance to design and repairs. At Aiped Integrated Services Limited, we strive to create value for our customers through innovation, expertise, and a commitment to excellence.</p>
+                               
+                            </div>
+                            <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="position-relative h-100">
+                            <img src="../img/k4.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="">
+                            <div class="bg-white">
+                                <div class="position-absolute pt-3 bg-white" style="width: 50%; left: 0; bottom: 0;">
+                                    <div class="bg-primary p-4">
+                                        <h4 class="display-2 mb-0">25+</h4>
+                                        <p class="text-white fs-5 mb-0">years of experience</p>
+                                    </div>
+                                </div>
+                                <div class="position-absolute p-3 bg-white pb-0 pe-0" style="width: 50%; bottom: 0; right: 0;">
+                                    <img src="../img/kfw.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Banner Start -->
+         <div class="container-fluid banner py-5 wow zoomIn" data-wow-delay="0.2s">
+            <div class="banner-design-1"></div>
+            <div class="banner-design-2"></div>
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-8">
+                        <div class="">
+                            <h4 class="text-white">Contact With Me</h4>
+                            <h1 class="display-4 text-white mb-0">We provide professional electric services for our customer</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex align-items-center justify-content-lg-end h-100">
+                            <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">EXPLORE MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!-- Banner End -->
+
+
+        <style>
+    .service-item {
+      height: 100%;
+      max-width: 450px;
+      min-height: 550px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+      background: #fff;
+    }
+
+    .service-img {
+      height: 200px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .service-item .content {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      padding: 1.5rem;
+    }
+
+    .service-item .content p {
+      flex-grow: 1;
+    }
+
+    .service-carousel .owl-stage {
+      display: flex;
+    }
+
+    .service-carousel .owl-item {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+
+  <!-- Services Start -->
+  <div class="container-fluid service py-5">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h4 class="text-primary">Our Services</h4>
+        <h1 class="display-4 mb-4">The Best Service For You</h1>
+        <p>We offer a comprehensive range of services to meet the growing demands of technology and innovation. Our services include:</p>
+      </div>
+
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-3">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-3">
+              <a class="nav-link active btn btn-outline-primary" data-bs-toggle="pill" href="#ServiceTab-1">Commercial</a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <div class="col-lg-9">
+          <div class="tab-content">
+            <!-- Tab 1 -->
+            <div id="ServiceTab-1" class="tab-pane fade show active">
+              <div class="service-carousel owl-carousel">
+                <div class="service-item">
+                  <img src="../img/g1.jpg" class="service-img" alt="">
+                  <div class="content border border-top-0">
+                    <h4 class="mb-3">Brite Spark Services</h4>
+                    <p>
+                        Our Brite Spark Services are designed to power your home or business with precision and care. We handle all electrical installations, diagnostics, and maintenance with cutting-edge tools and a team of certified professionals, ensuring safe and efficient energy delivery.
+                    </p>
+                    <a class="btn btn-primary mt-auto" href="#">Read More</a>
+                  </div>
+                </div>
+
+                <div class="service-item">
+                  <img src="../img/g3.jpg" class="service-img" alt="">
+                  <div class="content border border-top-0">
+                    <h4 class="mb-3">Energy Ease Packages</h4>
+                    <p>
+                        The Energy Ease Packages offer tailored energy solutions for both residential and commercial needs. From load management to efficient power distribution and backup systems, we help reduce your energy costs while ensuring uninterrupted power supply.
+
+
+                    </p>
+                    <a class="btn btn-primary mt-auto" href="#">Read More</a>
+                  </div>
+                </div>
+
+                <div class="service-item">
+                  <img src="../img/g8.jpg" class="service-img" alt="">
+                  <div class="content border border-top-0">
+                    <h4 class="mb-3">Electra Care Packages</h4>
+                    <p>
+                        With Electra Care, we provide proactive maintenance and support for all your electrical installations. Our package includes routine checkups, system upgrades, and 24/7 emergency response to keep your systems functioning at peak performance.
+                    </p>
+                    <a class="btn btn-primary mt-auto" href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab 2 -->
+            <div id="ServiceTab-2" class="tab-pane fade">
+              <div class="service-carousel owl-carousel">
+                <div class="service-item">
+                  <img src="../img/g15" class="service-img" alt="">
+                  <div class="content border border-top-0">
+                    <h4 class="mb-3">Electrical Services</h4>
+                    <p>
+                        We offer a full spectrum of electrical services including wiring, installation, panel upgrades, and fault detection. Whether it's a new project or troubleshooting existing systems, our licensed electricians deliver reliable and code-compliant solutions.
+                    </p>
+                    <a class="btn btn-primary mt-auto" href="#">Read More</a>
+                  </div>
+                </div>
+
+                <div class="service-item">
+                  <img src="https://via.placeholder.com/400x200" class="service-img" alt="">
+                  <div class="content border border-top-0">
+                    <h4 class="mb-3">Security Systems</h4>
+                    <p>
+                        Protect your property with our advanced security systems. We install and maintain CCTV cameras, motion sensors, intruder alarms, and access control systems, offering you peace of mind through robust surveillance and protection.
+                    </p>
+                    <a class="btn btn-primary mt-auto" href="#">Read More</a>
+                  </div>
+                </div>
+
+                <div class="service-item">
+                  <img src="https://via.placeholder.com/400x200" class="service-img" alt="">
+                  <div class="content border border-top-0">
+                    <h4 class="mb-3">Air Conditioner</h4>
+                    <p>
+                        Stay cool year-round with our expert air conditioning services. We supply, install, repair, and maintain AC units for homes, offices, and commercial buildings, ensuring energy efficiency and optimal indoor climate control.
+                    </p>
+                    <a class="btn btn-primary mt-auto" href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab 3 -->
+            <div id="ServiceTab-3" class="tab-pane fade">
+              <div class="service-carousel owl-carousel">
+                <div class="service-item">
+                  <img src="https://via.placeholder.com/400x200" class="service-img" alt="">
+                  <div class="content border border-top-0">
+                    <h4 class="mb-3">Factory Manufacture</h4>
+                    <p>
+                        We support factory and industrial setups with high-quality electrical installations and automation solutions. From machine wiring to large-scale energy systems, we optimize production lines with dependable power infrastructure.
+                    </p>
+                    <a class="btn btn-primary mt-auto" href="#">Read More</a>
+                  </div>
+                </div>
+
+                <div class="service-item">
+                  <img src="https://via.placeholder.com/400x200" class="service-img" alt="">
+                  <div class="content border border-top-0">
+                    <h4 class="mb-3">General Electrical</h4>
+                    <p>
+                        Our general electrical services cover everything from light fixture installations to switchboard upgrades. No job is too big or small—we guarantee professional handling of all your routine and emergency electrical needs.
+                    </p>
+                    <a class="btn btn-primary mt-auto" href="#">Read More</a>
+                  </div>
+                </div>
+
+                <div class="service-item">
+                  <img src="https://via.placeholder.com/400x200" class="service-img" alt="">
+                  <div class="content border border-top-0">
+                    <h4 class="mb-3">Electrical Planning</h4>
+                    <p>
+                        We specialize in electrical planning for residential, commercial, and industrial projects. Our team provides strategic layouts, load calculations, and safety designs that align with both client needs and regulatory standards.
+                    </p>
+                    <a class="btn btn-primary mt-auto" href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Services End -->
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".service-carousel").owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        responsive: {
+          0: { items: 1 },
+          768: { items: 2 },
+          992: { items: 3 }
+        }
+      });
+    });
+  </script>
+
+        <!-- Projects Start -->
+        <div class="container-fluid projects bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">Our Projects</h4>
+                            <h1 class="display-4 mb-4">How to work Our Electricity Projects</h1>
+                            <p class="mb-5">
+                                At Aiped Integrated Services Limited, we combine expertise, innovation, and precision to deliver high-quality electricity projects that meet the needs of our clients. From concept to completion, we follow a structured and efficient process to ensure seamless project execution while maintaining the highest safety and quality standards.
+
+
+                            </p>
+                            <ul class="nav">
+                                <li class="nav-item bg-white mb-4 w-100">
+                                    <a class="d-flex align-items-center h4 mb-0 p-3 active" data-bs-toggle="pill" href="#ProjectsTab-1">
+                                        <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-bolt small"></span></div><span>Initial Consultation</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item bg-white mb-4 w-100">
+                                    <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-2">
+                                        <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-charging-station small"></span></div><span>Project Planning and Design</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item bg-white mb-4 w-100">
+                                    <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-3">
+                                        <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-broadcast-tower small"></span></div><span>Equipment Procurement</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item bg-white mb-4 w-100">
+                                    <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-4">
+                                        <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-bolt small"></span></div><span>Installation and Implementation</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="tab-content">
+                            <div id="ProjectsTab-1" class="tab-pane fade show p-0 active">
+                                <div class="projects-item">
+                                    <img src="../img/industrial-1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="projects-content bg-white p-4">
+                                        <h4 class="mb-3">Installation and commissioning of a 40KVA Plant</h4>
+                                        <!-- <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, quo? Enim facere, praesentium voluptatem vero officiis libero fuga rem autem amet recusandae voluptates, dolorem quo magni. Corporis eveniet consequuntur accusantium. -->
+                                        <!-- </p> -->
+                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ProjectsTab-2" class="tab-pane fade show p-0">
+                                <div class="projects-item">
+                                    <img src="../img/industrial-2.jpg" class="img-fluid w-100" alt="">
+                                    <div class="projects-content bg-white p-4">
+                                        <h4 class="mb-3">Installation, maintenance, and repair of Air conditioners, electrical gadgets, and electronic machines</h4>
+                                        <!-- <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, quo? Enim facere, praesentium voluptatem vero officiis libero fuga rem autem amet recusandae voluptates, dolorem quo magni. Corporis eveniet consequuntur accusantium.
+                                        </p> -->
+                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ProjectsTab-3" class="tab-pane fade show p-0">
+                                <div class="projects-item">
+                                    <img src="../img/commercial-1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="projects-content bg-white p-4">
+                                        <h4 class="mb-3">Servicing and installation of industrial printing machines</h4>
+                                        <!-- <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, quo? Enim facere, praesentium voluptatem vero officiis libero fuga rem autem amet recusandae voluptates, dolorem quo magni. Corporis eveniet consequuntur accusantium.
+                                        </p> -->
+                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ProjectsTab-4" class="tab-pane fade show p-0">
+                                <div class="projects-item">
+                                    <img src="../img/commercial-2.jpg" class="img-fluid w-100" alt="">
+                                    <div class="projects-content bg-white p-4">
+                                        <h4 class="mb-4">Supply, installation, and maintenance of electrical gadgets and power lines</h4>
+                                        <!-- <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, quo? Enim facere, praesentium voluptatem vero officiis libero fuga rem autem amet recusandae voluptates, dolorem quo magni. Corporis eveniet consequuntur accusantium.
+                                        </p> -->
+                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects End -->
+
+
+        <!-- Blog Start -->
+         <!-- <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Our Blog</h4>
+                    <h1 class="display-4 mb-4">Electricity News & Updates</h1>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, deserunt provident ab voluptates rerum eaque eum magni autem atque in minus laboriosam corrupti deleniti voluptatibus rem reiciendis modi veniam animi?
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="../img/commercial-1.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-heading ms-4">
+                                <a href="#" class="h4 mb-0 p-4">Electrifying Reads Explore Our Electricity</a>
+                            </div>
+                            <div class="blog-content bg-light p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 small"><i class="fa fa-calendar me-2"></i> April 2,2025</p>
+                                    <p class="mb-0 small"><i class="fa fa-tag me-2"></i> Electricity Corner</p>
+                                </div>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis rem distinctio tempora eum quam eligendi. Repudiandae voluptas voluptatibus quo itaque!
+                                </p>
+                                <a class="btn btn-primary py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="../img/commercial-2.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-heading ms-4">
+                                <a href="#" class="h4 mb-0 p-4">Empowering Energy Dive into Our Electricity </a>
+                            </div>
+                            <div class="blog-content bg-light p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 small"><i class="fa fa-calendar me-2"></i> April 2,2025</p>
+                                    <p class="mb-0 small"><i class="fa fa-tag me-2"></i> Electricity Corner</p>
+                                </div>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis rem distinctio tempora eum quam eligendi. Repudiandae voluptas voluptatibus quo itaque!
+                                </p>
+                                <a class="btn btn-primary py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="../img/commercial-3.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-heading ms-4">
+                                <a href="#" class="h4 mb-0 p-4">Electricity Explained: Bloggin Power of Tomorrow</a>
+                            </div>
+                            <div class="blog-content bg-light p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 small"><i class="fa fa-calendar me-2"></i> April 2,2025</p>
+                                    <p class="mb-0 small"><i class="fa fa-tag me-2"></i> Electricity Corner</p>
+                                </div>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis rem distinctio tempora eum quam eligendi. Repudiandae voluptas voluptatibus quo itaque!
+                                </p>
+                                <a class="btn btn-primary py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div> -->
+        <!-- Blog End -->
+
+       
+
+
+       
+
+
+        <!-- FAQ Start -->
+         <div class="container-fluid faq-section bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <h4 class="text-primary">Some Important FAQ's</h4>
+                        <h1 class="display-4 mb-4">Common Frequently Asked Questions?</h1>
+                        <p class="mb-4">At Aiped Integrated Services Limited, we understand that you may have questions before getting started. Below are some of the most common inquiries we receive. If you don’t find your answer here, feel free to contact us — we’re always ready to help.</p>
+                        <a class="btn btn-primary py-3 px-5" href="#">Have Any Questions</a>
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="h-100">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Q: What services do you offer?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show active" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: We provide a wide range of services including commercial, residential, and industrial electrical solutions, energy packages, security systems, air conditioning installation, maintenance, and more.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Q: Are your services available in my area?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: We currently operate in multiple regions. Please contact us or check our service area map on the website to confirm if we cover your location.
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Q: Do you offer emergency services?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: Yes, we offer 24/7 emergency support for electrical faults, breakdowns, or safety hazards. Call our hotline for immediate assistance.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            Q: Are your technicians certified?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: Absolutely. All our technicians are fully licensed, certified, and trained to handle a variety of electrical and installation tasks safely and professionally.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!-- FAQ End -->
+
+        <!-- Footer Start -->
+<div class="container-fluid footer bg-dark py-5 wow fadeIn" data-wow-delay="0.2s">
+    <div class="container py-5">
+        <div class="row g-5 mb-5 align-items-center">
+            <div class="col-lg-7">
+                <div class="position-relative mx-auto">
+                    <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Email address to Subscribe">
+                    <button type="button" class="btn btn-primary position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
+                    <a class="btn btn-light btn-md-square me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light btn-md-square me-3" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-light btn-md-square me-3" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-light btn-md-square me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h3 class="text-white mb-4"><i class="fas fa-bolt text-primary me-3"></i>Aiped Services</h3>
+                    <p class="mb-3">We are committed to providing top-notch residential, commercial, and industrial electrical solutions with safety and innovation at the core.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Services</a>
+                    <a href="#">Testimonials</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4">Our Services</h4>
+                    <a href="#">Air Conditioning</a>
+                    <a href="#">Electrical Panels</a>
+                    <a href="#">Security Systems</a>
+                    <a href="#">Indoor Lighting</a>
+                    <a href="#">Maintenance</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4">Contact Info</h4>
+                    <a href="#"><i class="fa fa-map-marker-alt text-primary me-2"></i> VWRQ+RWJ, Sunrise Street, Rumuekini Rd, Port Harcourt 500102, Rivers</a>
+                    <a href="mailto:info@aipedservices.com"><i class="fas fa-envelope text-primary me-2"></i> info@aipedservices.com</a>
+                    <a href="tel:08036690257"><i class="fas fa-phone text-primary me-2"></i> 0803 669 0257</a>
+                    <a href="#"><i class="fas fa-clock text-primary me-2"></i> Opens 9 am Sat · Closed now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Copyright -->
+<div class="container-fluid copyright py-4">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-md-6 text-center text-md-start mb-md-0">
+                <span class="text-body text-white"><i class="fas fa-copyright me-2"></i>Aiped Integrated Services Limited, All rights reserved.</span>
+            </div>
+            <div class="col-md-6 text-center text-md-end text-white">
+                Designed By <a class="border-bottom text-white" href="https://forkhive.com">ForkHive Technology</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../lib/wow/wow.min.js"></script>
+        <script src="../lib/easing/easing.min.js"></script>
+        <script src="../lib/waypoints/waypoints.min.js"></script>
+        <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="../js/main.js"></script>
+    </body>
+
+</html>
